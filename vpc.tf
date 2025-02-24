@@ -1,5 +1,5 @@
 module "vpc" {
-    source = "../terraform-aws-vpc"
+    source = "../terraform-aws-vpc-1"
     project_name = var.project_name
     environment = var.environment
     vpc_cidr = var.vpc_cidr
